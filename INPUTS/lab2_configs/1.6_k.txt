@@ -1,0 +1,25 @@
+#
+# {epsilon, 0}
+#
+Sigma:
+    0
+    1
+End
+#
+# 
+#
+States:
+    0, S, F
+    1, F
+    2
+End
+#
+# comentariu
+#
+Transitions:
+    0,0,1
+    0,1,2
+    1,1,2
+    1,0,2
+    2,1,2
+    2,0,2

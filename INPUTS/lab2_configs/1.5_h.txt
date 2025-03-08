@@ -1,0 +1,25 @@
+#
+# w is any string besides a and b
+#
+Sigma:
+    a
+    b
+End
+#
+# 
+#
+States:
+    0, S, F
+    1
+    2, F
+End
+#
+# comentariu
+#
+Transitions:
+    0,a,1
+    0,b,1
+    1,a,2
+    1,b,2
+    2,a,2
+    2,b,2

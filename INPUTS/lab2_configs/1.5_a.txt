@@ -1,0 +1,23 @@
+#
+# w nu contine ab
+#
+Sigma:
+    a
+    b
+End
+#
+# 
+#
+States:
+    0, S, F
+    1, F
+    2
+End
+#
+# comentariu
+#
+Transitions:
+    0,b,0
+    0,a,1
+    1,a,1
+    1,b,2

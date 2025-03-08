@@ -1,0 +1,2 @@
+A -> BaB
+B -> BB | aBb | bBa | a | epsilon

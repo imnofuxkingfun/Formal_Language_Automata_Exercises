@@ -1,0 +1,3 @@
+A -> BX
+B -> 0B0 | 1B1 | #X
+X -> 0X | 1X | epsilon

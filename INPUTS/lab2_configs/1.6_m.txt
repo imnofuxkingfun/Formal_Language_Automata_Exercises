@@ -1,0 +1,22 @@
+#
+# the empty set
+#
+Sigma:
+    0
+    1
+End
+#
+# 
+#
+States:
+    0, S, F
+    1
+End
+#
+# comentariu
+#
+Transitions:
+    0,0,1
+    0,1,1
+    1,1,1
+    1,0,1

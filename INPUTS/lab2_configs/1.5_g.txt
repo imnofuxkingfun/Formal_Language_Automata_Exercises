@@ -1,0 +1,28 @@
+#
+# w doesnt contain exactly 2 a
+#
+Sigma:
+    a
+    b
+End
+#
+# 
+#
+States:
+    0, S, F
+    1, F
+    2
+    3, F
+End
+#
+# comentariu
+#
+Transitions:
+    0,b,0
+    0,a,1,
+    1,b,1
+    1,a,2
+    2,b,2
+    2,a,3
+    3,a,3
+    3,b,3

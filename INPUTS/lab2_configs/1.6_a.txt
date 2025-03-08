@@ -1,0 +1,28 @@
+#
+# w bg w/1, ends w/0
+#
+Sigma:
+    0
+    1
+End
+#
+# 
+#
+States:
+    0, S
+    1
+    2
+    3, F
+End
+#
+# comentariu
+#
+Transitions:
+    0,0,1
+    0,1,2
+    1,0,1
+    1,1,1
+    2,0,3
+    2,1,2
+    3,0,3
+    3,1,2
